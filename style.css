@@ -1,0 +1,297 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(249, 89, 89);
+    color: white;
+    height: 10vh;
+}
+marquee{
+    background-color: rgb(249, 89, 89);
+    color: white;
+    font-size: 20px;
+}
+ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    font-size: 20px;
+}
+ul li:hover{
+    color: brown;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    color:white;
+    font-size:70px ;
+    font-weight: 900;
+}
+p{
+color: white;
+font-size: 30px;
+font-weight: 600;
+padding-top:-50px;
+}
+.nice{
+    color: white;
+    font-size: 30px;
+}
+.section1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(jollof\ rice\ .jpg);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-blend-mode: overlay;
+    background-color: rgba(231, 58, 58, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    background-color: brown;
+    color: white;
+    width:20%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+} 
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+a:hover{
+    color: brown;
+}
+.dishes{
+      text-align: center;
+     padding-top: 150px;
+}
+span{
+    color: brown;
+    font-size: 25px;
+}
+.Menu{
+    color: black;
+    font-size: 50px;
+}
+.food{
+     color: black;
+     font-size: 15px;
+}
+.Allfood img{
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+.section2A{
+    display: flex;
+    gap: 50px;
+    padding-top: 50px;
+    margin-left: 100px;
+}
+.Jollof{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.Allfood{
+    border: 1px solid brown;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 3px lightgray;
+}
+h5{
+    color:brown;
+    font-size: 15px;
+}
+.money{
+    color: green;
+    font-size: 15px;
+}
+.hungry{
+    color: black;
+    font-size: 20px;
+}
+.pick{
+    color: green;
+    font-size: 15px;
+}
+.section3{
+    height:70vh ;
+    background-color: #fafafa;
+    width: 100%;
+    margin-top: 50px;
+}
+.Section3A{
+ display: flex;
+ gap: 15px;
+ margin-left: 360px;
+ padding-top: 20px;
+}
+.Monday{
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid grey;
+    text-align: center;
+    width: 10%;
+    padding: 30px;
+}
+.Monday i{
+    color: brown;
+    padding-bottom: 5px;
+}
+.time{
+    color: grey;
+    font-size: 12px;
+    padding-top: 10px;
+    font-weight: 800;
+}
+.reach{
+    color: lightgray;
+    font-size: 16px;
+}
+form{
+     text-align: center;
+}
+input{
+    width: 50%;
+    margin-top: 25px;
+    padding: 15px;
+}
+.sub{
+    background-color: brown;
+    color: white;
+    width:20%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-left: 500px;
+}
+.section5A{
+    text-align: center;
+}
+.number{
+   color: blue; 
+}
+/* Tablet Screen */
+@media (max-width: 1024px){
+
+nav{
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+}
+
+ul{
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 22px;
+}
+
+button{
+    width: 40%;
+}
+
+.section2A{
+    flex-wrap: wrap;
+    margin-left: 0;
+    justify-content: center;
+}
+
+.Allfood{
+    width: 45%;
+}
+
+.Section3A{
+    flex-wrap: wrap;
+    margin-left: 0;
+    justify-content: center;
+}
+
+.Monday{
+    width: 30%;
+}
+
+input{
+    width: 70%;
+}
+
+.sub{
+    width: 40%;
+    margin-left: 0;
+}
+
+}
+
+
+/* Mobile Screen */
+@media (max-width: 600px){
+
+nav{
+    flex-direction: column;
+}
+
+ul{
+    flex-direction: column;
+    gap: 8px;
+}
+
+h1{
+    font-size: 35px;
+}
+
+p{
+    font-size: 18px;
+}
+
+button{
+    width: 60%;
+}
+
+.section2A{
+    flex-direction: column;
+    margin-left: 0;
+    align-items: center;
+}
+
+.Allfood{
+    width: 90%;
+}
+
+.Section3A{
+    flex-direction: column;
+    margin-left: 0;
+    align-items: center;
+}
+
+.Monday{
+    width: 80%;
+}
+
+input{
+    width: 90%;
+}
+
+.sub{
+    width: 60%;
+    margin-left: 0;
+}
+
+}
