@@ -8,6 +8,12 @@
     <script src="https://kit.fontawesome.com/1097f2c020.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <script>
+    function switchMode() {
+      let x = document.body;
+      x.classList.toggle("dark-mode");
+    }
+  </script>
     <div>
     <nav>
         <h2 class="nice">Qanitah's kitchen</h2>
@@ -17,20 +23,21 @@
             <li> <a href="#schedule"> schedule</a></li>
             <li > <a href="#form">form</a></li>
             <li> <a href="#contact"> contact</a></li>
+            <img class="photo" src="PHOTO-2026-05-04-14-21-26.jpg" alt="Qanitah's kitchen"onclick="switchMode()">
         </ul>
     </nav>
    </div>
    <marquee behavior="" direction="">Welcome To Qanitah's Kitchen!!!!</marquee>
    <div id="home" class="section1">
      <h1>Qanitah's kitchen</h1>
-     <p>Homemade Nigerian dishes prepared with love,tradition, and the freshest <br>ingredients</p>
-     <button> <a href="#menu"> veiw or menu<i class="fa-solid fa-arrow-right"></i></a> </button>
+     <p>Homemade Nigerian dishes prepared with love, tradition, and the freshest <br>ingredients</p>
+     <button> <a href="#menu"> view or menu<i class="fa-solid fa-arrow-right"></i></a> </button>
    </div>
    <div id="menu"   class="section2">
     <div class="dishes">
      <span>Our Dishes </span>
      <h1 class="Menu">Menu</h1>
-     <p class="food">Every dish is made fresh to order with authentic family recipes</p>
+     <p class="food">Every dish is made fresh to order with authentic family recipes.If you are gluten free we got you,we have drinks.</p>
     </div>
     <div  class="section2A">
     <div class="cook">
@@ -86,7 +93,7 @@
           </div>
          <h5>Perfectly cooked white rice with ayamase sauce  <br>ready to pair with any side of your choice.</h5>
       </div>
-    </div>
+       <button> More Menu<i class="fa-solid fa-arrow-right"></i></button>
     </div>
     </div>
     </div>
@@ -125,8 +132,9 @@
         <input placeholder="Email adress" type="text">
         <input placeholder="Whatsapp" type="text">
         <input placeholder="pickup loction" type="text">
+       <input  placeholder="What you ordered" type="text">
       </form>
-       <button class="sub">submint </button>
+       <button class="sub">Submit</button>
       </div>
       </div>
      </div>
@@ -146,4 +154,5 @@
    </div>
    </div>    
 </body>
-</html
+<script src="script.js"></script>
+</html>

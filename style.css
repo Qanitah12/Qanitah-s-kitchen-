@@ -1,4 +1,5 @@
-*{
+
+  *{
     margin: 0px;
     padding: 0px;
 }
@@ -9,6 +10,18 @@ nav{
     background-color: rgb(249, 89, 89);
     color: white;
     height: 10vh;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.dark-mode{
+    background-color: black;
+    color: white;
 }
 marquee{
     background-color: rgb(249, 89, 89);
@@ -176,6 +189,7 @@ input{
     border: none;
     border-radius: 10px;
     margin-left: 500px;
+    margin-top: 20px;
 }
 .section5A{
     text-align: center;
@@ -294,4 +308,12 @@ input{
     margin-left: 0;
 }
 
+}
+body{
+    min-height: 200vh;
+}
+.btn{
+    width: 50%;
+    text-align: center;
+    margin-left: 15px;
 }
