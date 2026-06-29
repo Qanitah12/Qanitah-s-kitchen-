@@ -320,7 +320,7 @@ body{
 align-items: center;
 justify-content: center;
 height: 50px;
-width: 170px;
+width: 110px;
 padding-right:20px;
 }a
 .hidden{
@@ -329,12 +329,6 @@ padding-right:20px;
 .Allfodd button{
     padding-right:20px;
 }
-.menubutton{
-    margin-top: 30px;
-    margin-left: 520px;
-    font-size: 5px;
-}
-.us img{
-    width: 200px;
-    height: 200px;
+.menubuttton{
+    margin-left: 300px;
 }
